@@ -14,11 +14,13 @@ This Chrome extension isn't available through the Chrome Store, therefore you ne
 1. Click the **LOAD UNPACKED** button and select the extension's directory.
 1. Navigate to extension options and set your github organization and repository name. For example, if your hypothetical issue link is: https://github.com/aligg/issue-filler/123 your organization would be "aligg" and your repository would be "issue-filler"
 1. Restart Chrome
-1. Create a new application and the form should be auto-filled
 
 Demo of installing the extension:
 
 ![Load extension](.github/loading.gif)
+
+Screenshot on how to get to options to set your github organization and repository name:
+![Get to options](.github/navtooptions.png)
 
 ## Demo
 Demo of extension in use
