@@ -17,7 +17,7 @@ This Chrome extension isn't available through the Chrome Store, therefore you ne
 
 Demo of installing the extension:
 
-![Load extension](.github/loading.mov)
+![Load extension](.github/loading.gif)
 
 
 ## Permissions
