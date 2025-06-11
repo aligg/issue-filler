@@ -9,7 +9,7 @@ chrome.omnibox.onInputEntered.addListener((text) => {
       if (username && repo) {
         chrome.tabs.create({ url: `https://github.com/${username}/${repo}/issues` });
       } else {
-        alert('Please configure your GitHub organization and repository in the extension options');
+        alert('Enter your GitHub organization and repository in the extension options');
         chrome.runtime.openOptionsPage();
       }
     });
@@ -22,9 +22,18 @@ chrome.omnibox.onInputEntered.addListener((text) => {
 
     if (username && repo) {
       const githubUrl = `https://github.com/${username}/${repo}/issues/${issueNumber}`;
-      chrome.tabs.create({ url: githubUrl });
+
+      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (tabs && tabs.length > 0) {
+          const currentTabId = tabs[0].id;
+          chrome.tabs.update(currentTabId, { url: githubUrl });
+        } else {
+          console.error("Could not find the current active tab.");
+          chrome.tabs.create({ url: githubUrl });
+        }
+      });
     } else {
-      alert('Enter your GitHub organization and repository in the extension options');
+      alert('Enter your GitHub username/organization and repository in the extension options!');
       chrome.runtime.openOptionsPage();
     }
   });
