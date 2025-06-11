@@ -17,7 +17,7 @@ This Chrome extension isn't available through the Chrome Store, therefore you ne
 
 Demo of installing the extension:
 
-![Load extension](.github/loading-extension.gif)
+![Load extension](.github/loading.gif)
 
 ## Permissions
 This extension's permissions are limited only to pages on github.com. You can confirm this by viewing the extension's **Details** from the [`chrome://extensions`](chrome://extensions) page.
