@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Nav to github issue",
   "version": "1.0",
-  "description": "Quickly jump to GitHub issues by typing 'i <issue_number>' in omnibox. Set up your github organization and repo name in options first.",
+  "description": "Quickly jump to GitHub issues by typing i + space + <issue_number>. Set up your github organization and repo in options first.",
   "icons": {
     "16": "icons/travel.png",
     "48": "icons/travel.png",
