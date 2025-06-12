@@ -3,7 +3,7 @@
 <head>
     <title>GitHub Issue Filler Options</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; }
+        body { font-family: sans-serif; padding: 20px; max-width: 750px; }
         label { display: block; margin-bottom: 5px; font-weight: bold; }
         input[type="text"] {
             width: 300px;
@@ -11,6 +11,9 @@
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
+        }
+        p {
+            line-height: 1.5;
         }
         button {
             display: block;
@@ -32,9 +35,7 @@
         code {
             background-color: #f0f0f0;
             padding: 2px 5px; 
-            border-radius: 3px; 
-            font-family: monospace; 
-            font-size: 0.9em;
+            border-radius: 3px;
         }
     </style>
 </head>
@@ -48,7 +49,7 @@
     <label for="githubRepo">Repository:</label>
     <input type="text" id="githubRepo" placeholder="e.g., issue-filler">
 
-    <button id="saveButton">Save Settings</button>
+    <button id="saveButton">Save</button>
 
     <div id="status"></div>
 
