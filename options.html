@@ -13,6 +13,8 @@
             border-radius: 4px;
         }
         button {
+            display: block;
+            margin-top: 20px;
             padding: 10px 20px;
             background-color: #007bff;
             color: white;
@@ -27,16 +29,23 @@
             margin-top: 20px;
             font-weight: bold;
         }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px; 
+            border-radius: 3px; 
+            font-family: monospace; 
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
     <h1>GitHub Issue Filler Settings</h1>
-    <p>For example, if your hypothetical issue link is https://github.com/aligg/issue-filler/123 your organization would be "aligg" and your repository would be "issue-filler"</p>
+    <p>For example, if your hypothetical issue link is <code>https://github.com/aligg/issue-filler/123</code> your organization would be <code>aligg</code> and your repository would be <code>issue-filler</code></p>
 
     <label for="githubUsername">Organization:</label>
     <input type="text" id="githubUsername" placeholder="e.g., aligg">
 
-    <label for="githubRepo">Repository Name:</label>
+    <label for="githubRepo">Repository:</label>
     <input type="text" id="githubRepo" placeholder="e.g., issue-filler">
 
     <button id="saveButton">Save Settings</button>
