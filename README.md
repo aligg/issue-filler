@@ -1,4 +1,4 @@
-<img src="icons/travel.png" alt="formfiller" width="150"/>
+<img src="icons/travel.png" alt="issuefiller" width="150"/>
 
 # Github Issue Filler
 
@@ -7,7 +7,7 @@ When this browser extension is enabled, you can type in `i <github issue number>
 ## Installation
 1. Add to Chrome via the [Chrome store](https://chromewebstore.google.com/detail/nav-to-github-issue/hkechgoganegnlfecefldlbinjmhhhni?authuser=0&hl=en&pli=1)
 1. Before getting started, make sure to set your github organization and repository name in the extension options
-![Get to options](.github/options.png)
+<img src=".github/options.png" alt="navtooptions" width="200"/>
 
 ## Install in developer mode
 This is not needed if you are all set via the web store. That said, if you do want to install via the zip file in Developer Mode, here is how:
