@@ -27,7 +27,7 @@ Reminder that in developer mode you'll still need to set your github org and rep
 
 ## Demo
 Demo of extension in use
-![Demo](.github/demo.gif)
+![Demo](.github/demo2.gif)
 
 
 ## Permissions
