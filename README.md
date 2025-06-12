@@ -9,6 +9,11 @@ When this browser extension is enabled, you can type in `i <github issue number>
 1. Before getting started, make sure to set your github organization and repository name in the extension options
 <img src=".github/options.png" alt="navtooptions" width="200"/>
 
+## Demo
+Demo of extension in use
+![Demo](.github/demo2.gif)
+
+
 ## Install in developer mode
 This is not needed if you are all set via the web store. That said, if you do want to install via the zip file in Developer Mode, here is how:
 
@@ -24,11 +29,6 @@ Demo of installing the extension via developer mode
 ![Load extension](.github/loading.gif)
 
 Reminder that in developer mode you'll still need to set your github org and repo in options.
-
-## Demo
-Demo of extension in use
-![Demo](.github/demo2.gif)
-
 
 ## Permissions
 This extension's permissions are limited only to pages on github.com. You can confirm this by viewing the extension's **Details** from the [`chrome://extensions`](chrome://extensions) page.
