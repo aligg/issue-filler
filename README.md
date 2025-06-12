@@ -1,6 +1,6 @@
 <img src="icons/travel.png" alt="formfiller" width="150"/>
 
-# Form Filler
+# Github Issue Filler
 
 When this browser extension is enabled, you can type in `i <github issue number>` to more quickly navigate to your github issues.
 
